@@ -1,5 +1,11 @@
 # Purr for VSCode
 
+## 0.2.7
+
+### Patch Changes
+
+- [`8ef8a76`](https://github.com/ryuudotgg/vscode-purr/commit/8ef8a76bc5237a3cba59d72fc8ce535b9f7cd540) Thanks [@ryuudotgg](https://github.com/ryuudotgg)! - chore(readme): update manual installation instructions
+
 ## 0.2.6
 
 ### Patch Changes

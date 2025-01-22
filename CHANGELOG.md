@@ -1,5 +1,11 @@
 # Purr for VSCode
 
+## 0.2.4
+
+### Patch Changes
+
+- [`3490ae0`](https://github.com/ryuudotgg/vscode-purr/commit/3490ae07304f98c8d49aa72e479b85ed635bffec) Thanks [@ryuudotgg](https://github.com/ryuudotgg)! - fix(release): run vsce publish after changesets
+
 ## 0.2.3
 
 ### Patch Changes

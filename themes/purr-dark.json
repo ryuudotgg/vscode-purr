@@ -1,0 +1,1511 @@
+{
+  "name": "Purr Dark",
+  "type": "dark",
+  "colors": {
+    /**
+     * Activity Bar
+     * Controls the styling of the activity bar, which is the leftmost vertical bar containing
+     * icons for different views like file explorer, search, etc.
+     */
+    "activityBar.activeBorder": "#A6ACCD",
+    "activityBar.background": "#000",
+    "activityBar.dropBorder": "#A6ACCD",
+    "activityBar.foreground": "#A6ACCD",
+    "activityBar.inactiveForeground": "#A6ACCD99",
+    "activityBarBadge.background": "#303340",
+    "activityBarBadge.foreground": "#E4F0FB",
+
+    /**
+     * Badge
+     * Controls the appearance of badges, which show counts and other indicators
+     * throughout the interface.
+     */
+    "badge.background": "#303340",
+    "badge.foreground": "#E4F0FB",
+
+    /**
+     * Breadcrumbs
+     * Controls the styling of the breadcrumbs navigation at the top of the editor.
+     */
+    "breadcrumb.activeSelectionForeground": "#E4F0FB",
+    "breadcrumb.background": "#00000000",
+    "breadcrumb.focusForeground": "#E4F0FB",
+    "breadcrumb.foreground": "#767C9DCC",
+    "breadcrumbPicker.background": "#000",
+
+    /**
+     * Buttons
+     * Controls the appearance of buttons throughout the interface.
+     */
+    "button.background": "#303340",
+    "button.foreground": "#FFFFFF",
+    "button.hoverBackground": "#50647780",
+    "button.secondaryBackground": "#A6ACCD",
+    "button.secondaryForeground": "#FFFFFF",
+    "button.secondaryHoverBackground": "#A6ACCD",
+
+    /**
+     * Charts
+     * Controls the colors used in various charts and visualizations.
+     */
+    "charts.blue": "#ADD7FF",
+    "charts.foreground": "#A6ACCD",
+    "charts.green": "#5DE4C7",
+    "charts.lines": "#A6ACCD80",
+    "charts.orange": "#89DDFF",
+    "charts.purple": "#F087BD",
+    "charts.red": "#D0679D",
+    "charts.yellow": "#FFFAC2",
+
+    /**
+     * Checkbox
+     * Controls the appearance of checkboxes in the interface.
+     */
+    "checkbox.background": "#000",
+    "checkbox.border": "#FFFFFF10",
+    "checkbox.foreground": "#E4F0FB",
+
+    /**
+     * Debug Console
+     * Controls the colors used in the debug console output.
+     */
+    "debugConsole.errorForeground": "#D0679D",
+    "debugConsole.infoForeground": "#ADD7FF",
+    "debugConsole.sourceForeground": "#A6ACCD",
+    "debugConsole.warningForeground": "#FFFAC2",
+    "debugConsoleInputIcon.foreground": "#A6ACCD",
+
+    /**
+     * Debug Interface
+     * Controls the appearance of the debugging interface elements.
+     */
+    "debugExceptionWidget.background": "#D0679D",
+    "debugExceptionWidget.border": "#D0679D",
+    "debugIcon.breakpointCurrentStackframeForeground": "#FFFAC2",
+    "debugIcon.breakpointDisabledForeground": "#7390AA",
+    "debugIcon.breakpointForeground": "#D0679D",
+    "debugIcon.breakpointStackframeForeground": "#5FB3A1",
+    "debugIcon.breakpointUnverifiedForeground": "#7390AA",
+    "debugIcon.continueForeground": "#ADD7FF",
+    "debugIcon.disconnectForeground": "#D0679D",
+    "debugIcon.pauseForeground": "#ADD7FF",
+    "debugIcon.restartForeground": "#5FB3A1",
+    "debugIcon.startForeground": "#5FB3A1",
+    "debugIcon.stepBackForeground": "#ADD7FF",
+    "debugIcon.stepIntoForeground": "#ADD7FF",
+    "debugIcon.stepOutForeground": "#ADD7FF",
+    "debugIcon.stepOverForeground": "#ADD7FF",
+    "debugIcon.stopForeground": "#D0679D",
+
+    /**
+     * Debug Token Expressions
+     * Controls the colors used for different types of values and expressions
+     * when displayed in the debug console and hover widgets.
+     */
+    "debugTokenExpression.boolean": "#89DDFF",
+    "debugTokenExpression.error": "#D0679D",
+    "debugTokenExpression.name": "#E4F0FB",
+    "debugTokenExpression.number": "#5FB3A1",
+    "debugTokenExpression.string": "#89DDFF",
+    "debugTokenExpression.value": "#A6ACCD99",
+
+    /**
+     * Debug Tools
+     * Controls the appearance of debug toolbar and related elements.
+     */
+    "debugToolBar.background": "#303340",
+    "debugView.exceptionLabelBackground": "#D0679D",
+    "debugView.exceptionLabelForeground": "#E4F0FB",
+    "debugView.stateLabelBackground": "#303340",
+    "debugView.stateLabelForeground": "#A6ACCD",
+    "debugView.valueChangedHighlight": "#89DDFF",
+
+    /**
+     * General UI
+     * Controls various general interface elements.
+     */
+    "descriptionForeground": "#A6ACCDB3",
+    "focusBorder": "#00000000",
+    "foreground": "#A6ACCD",
+
+    /**
+     * Diff Editor
+     * Controls the appearance of diff/comparison views.
+     */
+    "diffEditor.diagonalFill": "#A6ACCD33",
+    "diffEditor.insertedTextBackground": "#50647715",
+    "diffEditor.removedTextBackground": "#D0679D20",
+
+    /**
+     * Dropdown
+     * Controls the appearance of dropdown/select menus.
+     */
+    "dropdown.background": "#000",
+    "dropdown.border": "#FFFFFF10",
+    "dropdown.foreground": "#E4F0FB",
+
+    /**
+     * Editor
+     * Controls the main editor appearance and text highlighting.
+     */
+    "editor.background": "#000",
+    "editor.findMatchBackground": "#ADD7FF40",
+    "editor.findMatchBorder": "#ADD7FF",
+    "editor.findMatchHighlightBackground": "#ADD7FF40",
+    "editor.findRangeHighlightBackground": "#ADD7FF40",
+    "editor.focusedStackFrameHighlightBackground": "#7ABD7A4D",
+    "editor.foldBackground": "#717CB40B",
+    "editor.foreground": "#A6ACCD",
+    "editor.hoverHighlightBackground": "#264F7840",
+    "editor.inactiveSelectionBackground": "#717CB435",
+    "editor.lineHighlightBackground": "#717CB430",
+    "editor.lineHighlightBorder": "#00000000",
+    "editor.linkedEditingBackground": "#D0679D4D",
+    "editor.rangeHighlightBackground": "#FFFFFF0B",
+    "editor.selectionBackground": "#717CB435",
+    "editor.selectionHighlightBackground": "#00000000",
+    "editor.selectionHighlightBorder": "#ADD7FF80",
+    "editor.snippetFinalTabstopHighlightBorder": "#525252",
+    "editor.snippetTabstopHighlightBackground": "#7C7C7C4D",
+    "editor.stackFrameHighlightBackground": "#FFFF0033",
+    "editor.symbolHighlightBackground": "#89DDFF60",
+    "editor.wordHighlightBackground": "#ADD7FF20",
+    "editor.wordHighlightStrongBackground": "#ADD7FF40",
+
+    /**
+     * Editor Brackets
+     * Controls the appearance of matching brackets and bracket pairs.
+     */
+    "editorBracketHighlight.foreground1": "#D0679DE0",
+    "editorBracketHighlight.foreground2": "#FFFAC2E0",
+    "editorBracketHighlight.foreground3": "#5FB3A1E0",
+    "editorBracketHighlight.foreground4": "#89DDFFE0",
+    "editorBracketMatch.background": "#00000000",
+    "editorBracketMatch.border": "#E4F0FB40",
+
+    /**
+     * Editor Components
+     * Controls various editor UI components including code lens, cursors,
+     * error indicators, gutters, and group headers.
+     */
+    "editorCodeLens.foreground": "#A6ACCD",
+    "editorCursor.foreground": "#A6ACCD",
+    "editorError.foreground": "#D0679D",
+    "editorGroup.border": "#00000030",
+    "editorGroup.dropBackground": "#7390AA80",
+    "editorGroupHeader.noTabsBackground": "#000",
+    "editorGroupHeader.tabsBackground": "#000",
+    "editorGutter.addedBackground": "#5FB3A140",
+    "editorGutter.background": "#000",
+    "editorGutter.commentRangeForeground": "#A6ACCD",
+    "editorGutter.deletedBackground": "#D0679D40",
+    "editorGutter.foldingControlForeground": "#A6ACCD",
+    "editorGutter.modifiedBackground": "#ADD7FF20",
+
+    /**
+     * Editor Hints and Widgets
+     * Controls the appearance of hints, hovers, and other informational widgets.
+     */
+    "editorHint.foreground": "#7390AAB3",
+    "editorHoverWidget.background": "#000",
+    "editorHoverWidget.border": "#FFFFFF10",
+    "editorHoverWidget.foreground": "#A6ACCD",
+    "editorHoverWidget.statusBarBackground": "#202430",
+    "editorIndentGuide.activeBackground": "#E3E4E229",
+    "editorIndentGuide.background": "#303340",
+    "editorInfo.foreground": "#ADD7FF",
+    "editorInlineHint.background": "#A6ACCD",
+    "editorInlineHint.foreground": "#000",
+
+    /**
+     * Editor Lightbulb and Line Numbers
+     * Controls the appearance of suggestion lightbulbs and line numbers.
+     */
+    "editorLightBulb.foreground": "#FFFAC2",
+    "editorLightBulbAutoFix.foreground": "#ADD7FF",
+    "editorLineNumber.activeForeground": "#A6ACCD",
+    "editorLineNumber.foreground": "#767C9D50",
+    "editorLink.activeForeground": "#ADD7FF",
+
+    /**
+     * Editor Markers and Navigation
+     * Controls the appearance of markers and navigation elements.
+     */
+    "editorMarkerNavigation.background": "#2D2D30",
+    "editorMarkerNavigationError.background": "#D0679D",
+    "editorMarkerNavigationInfo.background": "#ADD7FF",
+    "editorMarkerNavigationWarning.background": "#FFFAC2",
+
+    /**
+     * Editor Overview Ruler
+     * Controls the appearance of the overview ruler (scrollbar annotations).
+     */
+    "editorOverviewRuler.addedForeground": "#5FB3A199",
+    "editorOverviewRuler.border": "#00000000",
+    "editorOverviewRuler.bracketMatchForeground": "#A0A0A0",
+    "editorOverviewRuler.commonContentForeground": "#A6ACCD66",
+    "editorOverviewRuler.currentContentForeground": "#5FB3A180",
+    "editorOverviewRuler.deletedForeground": "#D0679D99",
+    "editorOverviewRuler.errorForeground": "#D0679DB3",
+    "editorOverviewRuler.findMatchForeground": "#E4F0FB20",
+    "editorOverviewRuler.incomingContentForeground": "#89DDFF80",
+    "editorOverviewRuler.infoForeground": "#ADD7FF",
+    "editorOverviewRuler.modifiedForeground": "#89DDFF99",
+    "editorOverviewRuler.rangeHighlightForeground": "#89DDFF99",
+    "editorOverviewRuler.selectionHighlightForeground": "#A0A0A0CC",
+    "editorOverviewRuler.warningForeground": "#FFFAC2",
+    "editorOverviewRuler.wordHighlightForeground": "#A0A0A0CC",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#89DDFFCC",
+
+    /**
+     * Editor Pane and Widgets
+     * Controls the appearance of editor panes and associated widgets.
+     */
+    "editorPane.background": "#000",
+    "editorRuler.foreground": "#E4F0FB10",
+    "editorSuggestWidget.background": "#000",
+    "editorSuggestWidget.border": "#FFFFFF10",
+    "editorSuggestWidget.foreground": "#A6ACCD",
+    "editorSuggestWidget.highlightForeground": "#5DE4C7",
+    "editorSuggestWidget.selectedBackground": "#00000050",
+    "editorUnnecessaryCode.opacity": "#000000AA",
+    "editorWarning.foreground": "#FFFAC2",
+    "editorWhitespace.foreground": "#303340",
+    "editorWidget.background": "#000",
+    "editorWidget.border": "#A6ACCD",
+    "editorWidget.foreground": "#A6ACCD",
+
+    /**
+     * Error and Status Indicators
+     * Controls the appearance of error messages and status indicators.
+     */
+    "errorForeground": "#D0679D",
+    "extensionBadge.remoteBackground": "#303340",
+    "extensionBadge.remoteForeground": "#E4F0FB",
+    "extensionButton.prominentBackground": "#30334090",
+    "extensionButton.prominentForeground": "#FFFFFF",
+    "extensionButton.prominentHoverBackground": "#303340",
+    "extensionIcon.starForeground": "#FFFAC2",
+
+    /**
+     * Git Decorations
+     * Controls the appearance of Git-related decorations in the file explorer.
+     */
+    "gitDecoration.addedResourceForeground": "#5FB3A1",
+    "gitDecoration.conflictingResourceForeground": "#D0679D",
+    "gitDecoration.deletedResourceForeground": "#D0679D",
+    "gitDecoration.ignoredResourceForeground": "#767C9D90",
+    "gitDecoration.modifiedResourceForeground": "#ADD7FFE0",
+    "gitDecoration.renamedResourceForeground": "#5DE4C7",
+    "gitDecoration.stageDeletedResourceForeground": "#D0679D",
+    "gitDecoration.stageModifiedResourceForeground": "#ADD7FF",
+    "gitDecoration.submoduleResourceForeground": "#89DDFF",
+    "gitDecoration.untrackedResourceForeground": "#5DE4C7E0",
+
+    /**
+     * Icons and Images
+     * Controls the appearance of icons and image previews.
+     */
+    "icon.foreground": "#A6ACCD",
+    "imagePreview.border": "#303340",
+
+    /**
+     * Input Controls
+     * Controls the appearance of input fields and validation states.
+     */
+    "input.background": "#FFFFFF05",
+    "input.border": "#FFFFFF10",
+    "input.foreground": "#E4F0FB",
+    "input.placeholderForeground": "#A6ACCD60",
+    "inputOption.activeBackground": "#00000000",
+    "inputOption.activeBorder": "#00000000",
+    "inputOption.activeForeground": "#FFFFFF",
+    "inputValidation.errorBackground": "#000",
+    "inputValidation.errorBorder": "#D0679D",
+    "inputValidation.errorForeground": "#D0679D",
+    "inputValidation.infoBackground": "#506477",
+    "inputValidation.infoBorder": "#89DDFF",
+    "inputValidation.warningBackground": "#506477",
+    "inputValidation.warningBorder": "#FFFAC2",
+
+    /**
+     * Lists and Trees
+     * Controls the appearance of list and tree views throughout the interface,
+     * including file explorer, search results, and other tree-structured views.
+     */
+    "list.activeSelectionBackground": "#30334080",
+    "list.activeSelectionForeground": "#E4F0FB",
+    "list.deemphasizedForeground": "#767C9D",
+    "list.dropBackground": "#506477",
+    "list.errorForeground": "#D0679D",
+    "list.filterMatchBackground": "#89DDFF60",
+    "list.focusBackground": "#30334090",
+    "list.focusForeground": "#A6ACCD",
+    "list.focusOutline": "#00000000",
+    "list.highlightForeground": "#5FB3A1",
+    "list.hoverBackground": "#30334090",
+    "list.hoverForeground": "#E4F0FB",
+    "list.inactiveSelectionBackground": "#30334080",
+    "list.inactiveSelectionForeground": "#E4F0FB",
+    "list.invalidItemForeground": "#FFFAC2",
+    "list.warningForeground": "#FFFAC2",
+
+    /**
+     * List Filter Widget
+     * Controls the appearance of the list filter widget.
+     */
+    "listFilterWidget.background": "#303340",
+    "listFilterWidget.noMatchesOutline": "#D0679D",
+    "listFilterWidget.outline": "#00000000",
+
+    /**
+     * Menus
+     * Controls the appearance of all menu elements.
+     */
+    "menu.background": "#000",
+    "menu.foreground": "#E4F0FB",
+    "menu.selectionBackground": "#303340",
+    "menu.selectionForeground": "#7390AA",
+    "menu.separatorBackground": "#767C9D",
+    "menubar.selectionBackground": "#717CB425",
+    "menubar.selectionForeground": "#A6ACCD",
+
+    /**
+     * Merge Conflicts
+     * Controls the appearance of merge conflict indicators.
+     */
+    "merge.commonContentBackground": "#A6ACCD29",
+    "merge.commonHeaderBackground": "#A6ACCD66",
+    "merge.currentContentBackground": "#5FB3A133",
+    "merge.currentHeaderBackground": "#5FB3A180",
+    "merge.incomingContentBackground": "#89DDFF33",
+    "merge.incomingHeaderBackground": "#89DDFF80",
+
+    /**
+     * Minimap
+     * Controls the appearance of the minimap (code preview).
+     */
+    "minimap.errorHighlight": "#D0679D",
+    "minimap.findMatchHighlight": "#ADD7FF",
+    "minimap.selectionHighlight": "#E4F0FB40",
+    "minimap.warningHighlight": "#FFFAC2",
+    "minimapGutter.addedBackground": "#5FB3A180",
+    "minimapGutter.deletedBackground": "#D0679D80",
+    "minimapGutter.modifiedBackground": "#ADD7FF80",
+    "minimapSlider.activeBackground": "#A6ACCD30",
+    "minimapSlider.background": "#A6ACCD20",
+    "minimapSlider.hoverBackground": "#A6ACCD30",
+
+    /**
+     * Notebook
+     * Controls the appearance of interactive notebook elements including
+     * cells, borders, toolbars, and output containers used in Jupyter-style notebooks.
+     */
+    "notebook.cellBorderColor": "#000",
+    "notebook.cellInsertionIndicator": "#00000000",
+    "notebook.cellStatusBarItemHoverBackground": "#FFFFFF26",
+    "notebook.cellToolbarSeparator": "#303340",
+    "notebook.focusedCellBorder": "#00000000",
+    "notebook.focusedEditorBorder": "#00000000",
+    "notebook.focusedRowBorder": "#00000000",
+    "notebook.inactiveFocusedCellBorder": "#00000000",
+    "notebook.outputContainerBackgroundColor": "#000",
+    "notebook.rowHoverBackground": "#30334000",
+    "notebook.selectedCellBackground": "#303340",
+    "notebook.selectedCellBorder": "#000",
+    "notebook.symbolHighlightBackground": "#FFFFFF0B",
+
+    /**
+     * Notebook Scrollbar
+     * Controls the appearance of notebook scrollbars.
+     */
+    "notebookScrollbarSlider.activeBackground": "#A6ACCD25",
+    "notebookScrollbarSlider.background": "#00000050",
+    "notebookScrollbarSlider.hoverBackground": "#A6ACCD25",
+    "notebookStatusErrorIcon.foreground": "#D0679D",
+    "notebookStatusRunningIcon.foreground": "#A6ACCD",
+    "notebookStatusSuccessIcon.foreground": "#5FB3A1",
+
+    /**
+     * Notifications
+     * Controls the appearance of notification popups.
+     */
+    "notificationCenterHeader.background": "#303340",
+    "notificationLink.foreground": "#ADD7FF",
+    "notifications.background": "#000",
+    "notifications.border": "#303340",
+    "notifications.foreground": "#E4F0FB",
+    "notificationsErrorIcon.foreground": "#D0679D",
+    "notificationsInfoIcon.foreground": "#ADD7FF",
+    "notificationsWarningIcon.foreground": "#FFFAC2",
+
+    /**
+     * Panels
+     * Controls the appearance of panels (bottom/side panels).
+     */
+    "panel.background": "#000",
+    "panel.border": "#00000030",
+    "panel.dropBorder": "#A6ACCD",
+    "panelSection.border": "#000",
+    "panelSection.dropBackground": "#7390AA80",
+    "panelSectionHeader.background": "#303340",
+    "panelTitle.activeBorder": "#A6ACCD",
+    "panelTitle.activeForeground": "#A6ACCD",
+    "panelTitle.inactiveForeground": "#A6ACCD99",
+
+    /**
+     * Peek View
+     * Controls the appearance of peek view (inline code preview).
+     */
+    "peekView.border": "#00000030",
+    "peekViewEditor.background": "#A6ACCD05",
+    "peekViewEditor.matchHighlightBackground": "#303340",
+    "peekViewEditorGutter.background": "#A6ACCD05",
+    "peekViewResult.background": "#A6ACCD05",
+    "peekViewResult.fileForeground": "#FFFFFF",
+    "peekViewResult.lineForeground": "#A6ACCD",
+    "peekViewResult.matchHighlightBackground": "#303340",
+    "peekViewResult.selectionBackground": "#717CB425",
+    "peekViewResult.selectionForeground": "#FFFFFF",
+    "peekViewTitle.background": "#A6ACCD05",
+    "peekViewTitleDescription.foreground": "#A6ACCD60",
+    "peekViewTitleLabel.foreground": "#FFFFFF",
+
+    /**
+     * Picker and Progress
+     * Controls the appearance of picker dialogs and progress bars.
+     */
+    "pickerGroup.border": "#A6ACCD",
+    "pickerGroup.foreground": "#89DDFF",
+    "problemsErrorIcon.foreground": "#D0679D",
+    "problemsInfoIcon.foreground": "#ADD7FF",
+    "problemsWarningIcon.foreground": "#FFFAC2",
+    "progressBar.background": "#89DDFF",
+
+    /**
+     * Quick Input
+     * Controls the appearance of quick input dialogs.
+     */
+    "quickInput.background": "#000",
+    "quickInput.foreground": "#A6ACCD",
+    "quickInputList.focusBackground": "#A6ACCD10",
+    "quickInputTitle.background": "#FFFFFF1B",
+
+    /**
+     * Scrollbar and Selection
+     * Controls the appearance of scrollbars and selection highlights.
+     */
+    "sash.hoverBorder": "#00000000",
+    "scm.providerBorder": "#E4F0FB10",
+    "scrollbar.shadow": "#00000000",
+    "scrollbarSlider.activeBackground": "#A6ACCD25",
+    "scrollbarSlider.background": "#00000080",
+    "scrollbarSlider.hoverBackground": "#A6ACCD25",
+    "searchEditor.findMatchBackground": "#ADD7FF50",
+    "searchEditor.textInputBorder": "#FFFFFF10",
+    "selection.background": "#A6ACCD",
+
+    /**
+     * Settings
+     * Controls the appearance of the settings editor.
+     */
+    "settings.checkboxBackground": "#000",
+    "settings.checkboxBorder": "#FFFFFF10",
+    "settings.checkboxForeground": "#E4F0FB",
+    "settings.dropdownBackground": "#000",
+    "settings.dropdownBorder": "#FFFFFF10",
+    "settings.dropdownForeground": "#E4F0FB",
+    "settings.dropdownListBorder": "#E4F0FB10",
+    "settings.focusedRowBackground": "#00000000",
+    "settings.headerForeground": "#E4F0FB",
+    "settings.modifiedItemIndicator": "#ADD7FF",
+    "settings.numberInputBackground": "#FFFFFF05",
+    "settings.numberInputBorder": "#FFFFFF10",
+    "settings.numberInputForeground": "#E4F0FB",
+    "settings.textInputBackground": "#FFFFFF05",
+    "settings.textInputBorder": "#FFFFFF10",
+    "settings.textInputForeground": "#E4F0FB",
+
+    /**
+     * Sidebar
+     * Controls the appearance of the sidebar.
+     */
+    "sideBar.background": "#000",
+    "sideBar.dropBackground": "#7390AA80",
+    "sideBar.foreground": "#767C9D",
+    "sideBarSectionHeader.background": "#000",
+    "sideBarSectionHeader.foreground": "#A6ACCD",
+    "sideBarTitle.foreground": "#A6ACCD",
+
+    /**
+     * Status Bar
+     * Controls the appearance of the status bar at the bottom.
+     */
+    "statusBar.background": "#000",
+    "statusBar.debuggingBackground": "#303340",
+    "statusBar.debuggingForeground": "#FFFFFF",
+    "statusBar.foreground": "#A6ACCD",
+    "statusBar.noFolderBackground": "#000",
+    "statusBar.noFolderForeground": "#A6ACCD",
+    "statusBarItem.activeBackground": "#FFFFFF2E",
+    "statusBarItem.errorBackground": "#D0679D",
+    "statusBarItem.errorForeground": "#FFFFFF",
+    "statusBarItem.hoverBackground": "#FFFFFF1F",
+    "statusBarItem.prominentBackground": "#00000080",
+    "statusBarItem.prominentForeground": "#A6ACCD",
+    "statusBarItem.prominentHoverBackground": "#0000004D",
+    "statusBarItem.remoteBackground": "#303340",
+    "statusBarItem.remoteForeground": "#E4F0FB",
+
+    /**
+     * Symbol Icons
+     * Controls the appearance of various symbol icons in the editor.
+     */
+    "symbolIcon.arrayForeground": "#A6ACCD",
+    "symbolIcon.booleanForeground": "#A6ACCD",
+    "symbolIcon.classForeground": "#FFFAC2",
+    "symbolIcon.colorForeground": "#A6ACCD",
+    "symbolIcon.constantForeground": "#A6ACCD",
+    "symbolIcon.constructorForeground": "#F087BD",
+    "symbolIcon.enumeratorForeground": "#FFFAC2",
+    "symbolIcon.enumeratorMemberForeground": "#ADD7FF",
+    "symbolIcon.eventForeground": "#FFFAC2",
+    "symbolIcon.fieldForeground": "#ADD7FF",
+    "symbolIcon.fileForeground": "#A6ACCD",
+    "symbolIcon.folderForeground": "#A6ACCD",
+    "symbolIcon.functionForeground": "#F087BD",
+    "symbolIcon.interfaceForeground": "#ADD7FF",
+    "symbolIcon.keyForeground": "#A6ACCD",
+    "symbolIcon.keywordForeground": "#A6ACCD",
+    "symbolIcon.methodForeground": "#F087BD",
+    "symbolIcon.moduleForeground": "#A6ACCD",
+    "symbolIcon.namespaceForeground": "#A6ACCD",
+    "symbolIcon.nullForeground": "#A6ACCD",
+    "symbolIcon.numberForeground": "#A6ACCD",
+    "symbolIcon.objectForeground": "#A6ACCD",
+    "symbolIcon.operatorForeground": "#A6ACCD",
+    "symbolIcon.packageForeground": "#A6ACCD",
+    "symbolIcon.propertyForeground": "#A6ACCD",
+    "symbolIcon.referenceForeground": "#A6ACCD",
+    "symbolIcon.snippetForeground": "#A6ACCD",
+    "symbolIcon.stringForeground": "#A6ACCD",
+    "symbolIcon.structForeground": "#A6ACCD",
+    "symbolIcon.textForeground": "#A6ACCD",
+    "symbolIcon.typeParameterForeground": "#A6ACCD",
+    "symbolIcon.unitForeground": "#A6ACCD",
+    "symbolIcon.variableForeground": "#ADD7FF",
+
+    /**
+     * Tabs
+     * Controls the appearance of editor tabs.
+     */
+    "tab.activeBackground": "#000",
+    "tab.activeForeground": "#E4F0FB",
+    "tab.activeModifiedBorder": "#ADD7FF",
+    "tab.border": "#00000000",
+    "tab.inactiveBackground": "#000",
+    "tab.inactiveForeground": "#767C9D",
+    "tab.inactiveModifiedBorder": "#ADD7FF80",
+    "tab.lastPinnedBorder": "#00000000",
+    "tab.unfocusedActiveBackground": "#000",
+    "tab.unfocusedActiveForeground": "#A6ACCD",
+    "tab.unfocusedActiveModifiedBorder": "#ADD7FF40",
+    "tab.unfocusedInactiveBackground": "#000",
+    "tab.unfocusedInactiveForeground": "#A6ACCD80",
+    "tab.unfocusedInactiveModifiedBorder": "#ADD7FF40",
+
+    /**
+     * Terminal
+     * Controls the appearance of the integrated terminal.
+     */
+    "terminal.ansiBlack": "#000",
+    "terminal.ansiBlue": "#89DDFF",
+    "terminal.ansiBrightBlack": "#A6ACCD",
+    "terminal.ansiBrightBlue": "#ADD7FF",
+    "terminal.ansiBrightCyan": "#ADD7FF",
+    "terminal.ansiBrightGreen": "#5DE4C7",
+    "terminal.ansiBrightMagenta": "#F087BD",
+    "terminal.ansiBrightRed": "#D0679D",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+    "terminal.ansiBrightYellow": "#FFFAC2",
+    "terminal.ansiCyan": "#89DDFF",
+    "terminal.ansiGreen": "#5DE4C7",
+    "terminal.ansiMagenta": "#F087BD",
+    "terminal.ansiRed": "#D0679D",
+    "terminal.ansiWhite": "#FFFFFF",
+    "terminal.ansiYellow": "#FFFAC2",
+    "terminal.border": "#00000000",
+    "terminal.foreground": "#A6ACCD",
+    "terminal.selectionBackground": "#717CB425",
+
+    /**
+     * Terminal Commands
+     * Controls the appearance of command decorations in the integrated terminal,
+     * including indicators for command status (default, error, success).
+     */
+    "terminalCommandDecoration.defaultBackground": "#767C9D",
+    "terminalCommandDecoration.errorBackground": "#D0679D",
+    "terminalCommandDecoration.successBackground": "#5DE4C7",
+
+    /**
+     * Testing
+     * Controls the appearance of testing-related UI elements.
+     */
+    "testing.iconErrored": "#D0679D",
+    "testing.iconFailed": "#D0679D",
+    "testing.iconPassed": "#5DE4C7",
+    "testing.iconQueued": "#FFFAC2",
+    "testing.iconSkipped": "#7390AA",
+    "testing.iconUnset": "#7390AA",
+    "testing.message.error.decorationForeground": "#D0679D",
+    "testing.message.error.lineBackground": "#D0679D33",
+    "testing.message.hint.decorationForeground": "#7390AAB3",
+    "testing.message.info.decorationForeground": "#ADD7FF",
+    "testing.message.info.lineBackground": "#89DDFF33",
+    "testing.message.warning.decorationForeground": "#FFFAC2",
+    "testing.message.warning.lineBackground": "#FFFAC233",
+    "testing.peekBorder": "#D0679D",
+    "testing.runAction": "#5DE4C7",
+
+    /**
+     * Text Styling
+     * Controls the appearance of various text elements.
+     */
+    "textBlockQuote.background": "#7390AA1A",
+    "textBlockQuote.border": "#89DDFF80",
+    "textCodeBlock.background": "#00000050",
+    "textLink.activeForeground": "#ADD7FF",
+    "textLink.foreground": "#ADD7FF",
+    "textPreformat.foreground": "#E4F0FB",
+    "textSeparator.foreground": "#FFFFFF2E",
+
+    /**
+     * Title Bar
+     * Controls the appearance of the window title bar.
+     */
+    "titleBar.activeBackground": "#000",
+    "titleBar.activeForeground": "#A6ACCD",
+    "titleBar.inactiveBackground": "#000",
+    "titleBar.inactiveForeground": "#767C9D",
+
+    /**
+     * Tree and Welcome Page
+     * Controls the appearance of tree views and the welcome page.
+     */
+    "tree.indentGuidesStroke": "#303340",
+    "tree.tableColumnsBorder": "#A6ACCD20",
+    "welcomePage.progress.background": "#FFFFFF05",
+    "welcomePage.progress.foreground": "#5FB3A1",
+    "welcomePage.tileBackground": "#000",
+    "welcomePage.tileHoverBackground": "#303340",
+    "widget.shadow": "#00000030"
+  },
+  "tokenColors": [
+    /**
+     * Comments
+     * Controls the appearance of all types of comments in the code.
+     */
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#767C9DC0"
+      }
+    },
+    {
+      "scope": "meta.parameters comment.block",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#A6ACCD"
+      }
+    },
+
+    /**
+     * Variables and Objects
+     * Controls the appearance of variables, object properties, and related elements.
+     */
+    {
+      "scope": [
+        "variable.other.constant.object",
+        "variable.other.readwrite.alias",
+        "meta.import variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#ADD7FF"
+      }
+    },
+    {
+      "scope": ["variable.other", "support.type.object"],
+      "settings": {
+        "foreground": "#E4F0FB"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.object.property",
+        "variable.other.property",
+        "support.variable.property"
+      ],
+      "settings": {
+        "foreground": "#E4F0FB"
+      }
+    },
+
+    /**
+     * Functions and Methods
+     * Controls the appearance of function names, method calls, and related elements.
+     */
+    {
+      "scope": [
+        "entity.name.function.method",
+        "string.unquoted",
+        "meta.object.member"
+      ],
+      "settings": {
+        "foreground": "#ADD7FF"
+      }
+    },
+
+    /**
+     * Variable Declarations and Placeholders
+     * Controls the appearance of variable declarations and placeholder text.
+     */
+    {
+      "scope": [
+        "variable - meta.import",
+        "constant.other.placeholder",
+        "meta.object-literal.key-meta.object.member"
+      ],
+      "settings": {
+        "foreground": "#E4F0FB"
+      }
+    },
+
+    /**
+     * Control Flow Keywords
+     * Controls the appearance of flow control statements.
+     */
+    {
+      "scope": ["keyword.control.flow"],
+      "settings": {
+        "foreground": "#5DE4C7C0"
+      }
+    },
+
+    /**
+     * Object Creation and Modifiers
+     * Controls the appearance of new operators and modifiers.
+     */
+    {
+      "scope": ["keyword.operator.new", "keyword.control.new"],
+      "settings": {
+        "foreground": "#5DE4C7"
+      }
+    },
+    {
+      "scope": [
+        "variable.language.this",
+        "storage.modifier.async",
+        "storage.modifier",
+        "variable.language.super"
+      ],
+      "settings": {
+        "foreground": "#5DE4C7"
+      }
+    },
+
+    /**
+     * Error Handling and Special Keywords
+     * Controls the appearance of error-related and special language keywords.
+     */
+    {
+      "scope": [
+        "support.class.error",
+        "keyword.control.trycatch",
+        "keyword.operator.expression.delete",
+        "keyword.operator.expression.void",
+        "keyword.operator.void",
+        "keyword.operator.delete",
+        "constant.language.null",
+        "constant.language.boolean.false",
+        "constant.language.undefined"
+      ],
+      "settings": {
+        "foreground": "#D0679D"
+      }
+    },
+
+    /**
+     * Variable Parameters and Definitions
+     * Controls the appearance of function parameters and variable definitions.
+     */
+    {
+      "scope": [
+        "variable.parameter",
+        "variable.other.readwrite.js",
+        "meta.definition.variable variable.other.constant",
+        "meta.definition.variable variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#E4F0FB"
+      }
+    },
+
+    /**
+     * Colors and Invalid Code
+     * Controls the appearance of color values and invalid code.
+     */
+    {
+      "scope": ["constant.other.color"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#D0679D"
+      }
+    },
+    {
+      "scope": ["invalid.deprecated"],
+      "settings": {
+        "foreground": "#D0679D"
+      }
+    },
+
+    /**
+     * Keywords and Control Statements
+     * Controls the appearance of general keywords and control statements.
+     */
+    {
+      "scope": ["keyword.control", "keyword"],
+      "settings": {
+        "foreground": "#A6ACCD"
+      }
+    },
+
+    /**
+     * Operators and Storage Types
+     * Controls the appearance of operators and storage type declarations.
+     */
+    {
+      "scope": ["keyword.operator", "storage.type"],
+      "settings": {
+        "foreground": "#91B4D5"
+      }
+    },
+
+    /**
+     * Module-Related Keywords
+     * Controls the appearance of import/export statements and module declarations.
+     */
+    {
+      "scope": [
+        "keyword.control.module",
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.default",
+        "meta.import",
+        "meta.export"
+      ],
+      "settings": {
+        "foreground": "#5DE4C7"
+      }
+    },
+
+    /**
+     * Basic Keywords and Storage
+     * Controls the appearance of basic language keywords and storage types.
+     */
+    {
+      "scope": ["Keyword", "Storage"],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": ["keyword-meta.export"],
+      "settings": {
+        "foreground": "#ADD7FF"
+      }
+    },
+
+    /**
+     * Punctuation and Operators
+     * Controls the appearance of various punctuation marks and operators.
+     */
+    {
+      "scope": ["meta.brace", "punctuation", "keyword.operator.existential"],
+      "settings": {
+        "foreground": "#A6ACCD"
+      }
+    },
+
+    /**
+     * HTML and Template Elements
+     * Controls the appearance of HTML tags and template literals.
+     */
+    {
+      "scope": [
+        "constant.other.color",
+        "meta.tag",
+        "punctuation.definition.tag",
+        "punctuation.separator.inheritance.php",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.section.embedded",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "meta.objectliteral"
+      ],
+      "settings": {
+        "foreground": "#E4F0FB"
+      }
+    },
+
+    /**
+     * React Components
+     * Controls the appearance of React component names.
+     */
+    {
+      "scope": ["support.class.component"],
+      "settings": {
+        "foreground": "#5DE4C7"
+      }
+    },
+
+    /**
+     * HTML Tags and Git Decorations
+     * Controls the appearance of HTML tags and Git-related decorations.
+     */
+    {
+      "scope": [
+        "entity.name.tag",
+        "meta.tag.sgml",
+        "markup.deleted.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#5DE4C7"
+      }
+    },
+
+    /**
+     * Function Calls
+     * Controls the appearance of function calls and method invocations.
+     */
+    {
+      "name": "Function Call",
+      "scope": "variable.function, source meta.function-call entity.name.function, source meta.function-call entity.name.function, source meta.method-call entity.name.function, meta.class meta.group.braces.curly meta.function-call variable.function, meta.class meta.field.declaration meta.function-call entity.name.function, variable.function.constructor, meta.block meta.var.expr meta.function-call entity.name.function, support.function.console, meta.function-call support.function, meta.property.class variable.other.class, punctuation.definition.entity.css",
+      "settings": {
+        "foreground": "#E4F0FBD0"
+      }
+    },
+
+    /**
+     * Function and Class Declarations
+     * Controls the appearance of function and class names in declarations.
+     */
+    {
+      "name": "Function/Class Name",
+      "scope": "entity.name.function, meta.class entity.name.class, meta.class entity.name.type.class, meta.class meta.function-call variable.function, keyword.other.important",
+      "settings": {
+        "foreground": "#ADD7FF"
+      }
+    },
+
+    /**
+     * C++ Specific
+     * Controls the appearance of C++ specific syntax elements.
+     */
+    {
+      "scope": ["source.cpp meta.block variable.other"],
+      "settings": {
+        "foreground": "#ADD7FF"
+      }
+    },
+
+    /**
+     * Support Variables and Links
+     * Controls the appearance of support variables and link elements.
+     */
+    {
+      "scope": ["support.other.variable", "string.other.link"],
+      "settings": {
+        "foreground": "#5DE4C7"
+      }
+    },
+
+    /**
+     * Constants and Strings
+     * Controls the appearance of numeric constants, strings, and related elements.
+     */
+    {
+      "scope": [
+        "constant.numeric",
+        "support.constant",
+        "constant.character",
+        "constant.escape",
+        "keyword.other.unit",
+        "keyword.other",
+        "string",
+        "constant.language",
+        "constant.other.symbol",
+        "constant.other.key",
+        "markup.heading",
+        "markup.inserted.git_gutter",
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+        "text.html.derivative"
+      ],
+      "settings": {
+        "foreground": "#5DE4C7"
+      }
+    },
+
+    /**
+     * Class Inheritance
+     * Controls the appearance of inherited class names.
+     */
+    {
+      "scope": ["entity.other.inherited-class"],
+      "settings": {
+        "foreground": "#ADD7FF"
+      }
+    },
+
+    /**
+     * Type Declarations
+     * Controls the appearance of type declarations and aliases.
+     */
+    {
+      "scope": ["meta.type.declaration"],
+      "settings": {
+        "foreground": "#ADD7FF"
+      }
+    },
+    {
+      "scope": ["entity.name.type.alias"],
+      "settings": {
+        "foreground": "#A6ACCD"
+      }
+    },
+
+    /**
+     * Type Controls
+     * Controls the appearance of type-related keywords and support types.
+     */
+    {
+      "scope": ["keyword.control.as", "entity.name.type", "support.type"],
+      "settings": {
+        "foreground": "#A6ACCDC0"
+      }
+    },
+
+    /**
+     * Entity Names and Namespaces
+     * Controls the appearance of entity names and namespace elements.
+     */
+    {
+      "scope": [
+        "entity.name",
+        "support.orther.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "markup.changed.git_gutter",
+        "support.type.sys-types"
+      ],
+      "settings": {
+        "foreground": "#91B4D5"
+      }
+    },
+
+    /**
+     * Support Classes and Constants
+     * Controls the appearance of support classes and constant objects.
+     */
+    {
+      "scope": [
+        "support.class",
+        "support.constant",
+        "variable.other.constant.object"
+      ],
+      "settings": {
+        "foreground": "#ADD7FF"
+      }
+    },
+
+    /**
+     * CSS Properties
+     * Controls the appearance of CSS property names across different preprocessors.
+     */
+    {
+      "scope": [
+        "source.css support.type.property-name",
+        "source.sass support.type.property-name",
+        "source.scss support.type.property-name",
+        "source.less support.type.property-name",
+        "source.stylus support.type.property-name",
+        "source.postcss support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#ADD7FF"
+      }
+    },
+
+    /**
+     * JavaScript Modules
+     * Controls the appearance of JavaScript module-related elements.
+     */
+    {
+      "scope": [
+        "entity.name.module.js",
+        "variable.import.parameter.js",
+        "variable.other.class.js"
+      ],
+      "settings": {
+        "foreground": "#E4F0FB"
+      }
+    },
+
+    /**
+     * Language Variables
+     * Controls the appearance of language-specific variables.
+     */
+    {
+      "scope": ["variable.language"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ADD7FF"
+      }
+    },
+
+    /**
+     * JavaScript Methods
+     * Controls the appearance of JavaScript method names and constructors.
+     */
+    {
+      "scope": ["entity.name.method.js"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#91B4D5"
+      }
+    },
+    {
+      "scope": [
+        "meta.class-method.js entity.name.function.js",
+        "variable.function.constructor"
+      ],
+      "settings": {
+        "foreground": "#91B4D5"
+      }
+    },
+
+    /**
+     * HTML Attributes
+     * Controls the appearance of HTML attributes and related elements.
+     */
+    {
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#91B4D5"
+      }
+    },
+    {
+      "scope": [
+        "text.html.basic entity.other.attribute-name.html",
+        "text.html.basic entity.other.attribute-name"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#5FB3A1"
+      }
+    },
+    {
+      "scope": ["entity.other.attribute-name.class"],
+      "settings": {
+        "foreground": "#5FB3A1"
+      }
+    },
+
+    /**
+     * Sass Controls
+     * Controls the appearance of Sass-specific keywords.
+     */
+    {
+      "scope": ["source.sass keyword.control"],
+      "settings": {
+        "foreground": "#42675A"
+      }
+    },
+
+    /**
+     * Git Diff Markers
+     * Controls the appearance of Git diff markers and changes.
+     */
+    {
+      "scope": ["markup.inserted"],
+      "settings": {
+        "foreground": "#ADD7FF"
+      }
+    },
+    {
+      "scope": ["markup.deleted"],
+      "settings": {
+        "foreground": "#506477"
+      }
+    },
+    {
+      "scope": ["markup.changed"],
+      "settings": {
+        "foreground": "#91B4D5"
+      }
+    },
+
+    /**
+     * Regular Expressions
+     * Controls the appearance of regular expressions and escape characters.
+     */
+    {
+      "scope": ["string.regexp"],
+      "settings": {
+        "foreground": "#5FB3A1"
+      }
+    },
+    {
+      "scope": ["constant.character.escape"],
+      "settings": {
+        "foreground": "#5FB3A1"
+      }
+    },
+
+    /**
+     * URLs and Links
+     * Controls the appearance of URLs and link elements.
+     */
+    {
+      "scope": ["*url*", "*link*", "*uri*"],
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#ADD7FF"
+      }
+    },
+
+    /**
+     * JavaScript Decorators
+     * Controls the appearance of JavaScript decorators.
+     */
+    {
+      "scope": [
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#42675A"
+      }
+    },
+
+    /**
+     * JavaScript Object Keys
+     * Controls the appearance of JavaScript object keys.
+     */
+    {
+      "scope": [
+        "source.js constant.other.object.key.js string.unquoted.label.js"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#5FB3A1"
+      }
+    },
+
+    /**
+     * JSON Property Names
+     * Controls the appearance of JSON property names at different nesting levels.
+     */
+    {
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#E4F0FB"
+      }
+    },
+    // ... nested JSON property names continue with different colors for different levels ...
+
+    /**
+     * Markdown Formatting
+     * Controls the appearance of Markdown syntax elements.
+     */
+    {
+      "scope": [
+        "text.html.markdown",
+        "punctuation.definition.list_item.markdown"
+      ],
+      "settings": {
+        "foreground": "#E4F0FB"
+      }
+    },
+    {
+      "scope": ["text.html.markdown markup.inline.raw.markdown"],
+      "settings": {
+        "foreground": "#ADD7FF"
+      }
+    },
+
+    /**
+     * Markdown Headers
+     * Controls the appearance of Markdown headers and headings.
+     */
+    {
+      "scope": [
+        "markdown.heading",
+        "markup.heading | markup.heading entity.name",
+        "markup.heading.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#E4F0FB"
+      }
+    },
+
+    /**
+     * Markdown Text Formatting
+     * Controls the appearance of bold, italic, and other text formatting in Markdown.
+     */
+    {
+      "scope": ["markup.italic"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#7390AA"
+      }
+    },
+    {
+      "scope": ["markup.bold", "markup.bold string"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#7390AA"
+      }
+    },
+
+    /**
+     * Markdown Combined Formatting
+     * Controls the appearance of combined formatting (bold+italic, etc.).
+     */
+    {
+      "scope": [
+        "markup.bold markup.italic",
+        "markup.italic markup.bold",
+        "markup.quote markup.bold",
+        "markup.bold markup.italic string",
+        "markup.italic markup.bold string",
+        "markup.quote markup.bold string"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#7390AA"
+      }
+    },
+
+    /**
+     * Markdown Links and References
+     * Controls the appearance of links and references in Markdown.
+     */
+    {
+      "scope": ["string.other.link.title.markdown"],
+      "settings": {
+        "foreground": "#ADD7FF"
+      }
+    },
+    {
+      "scope": ["string.other.link.description.title.markdown"],
+      "settings": {
+        "foreground": "#ADD7FF"
+      }
+    },
+    {
+      "scope": ["constant.other.reference.link.markdown"],
+      "settings": {
+        "foreground": "#ADD7FF"
+      }
+    },
+
+    /**
+     * Markdown Code Blocks
+     * Controls the appearance of code blocks in Markdown.
+     */
+    {
+      "scope": ["markup.raw.block"],
+      "settings": {
+        "foreground": "#ADD7FF"
+      }
+    },
+    {
+      "scope": ["markup.raw.block.fenced.markdown"],
+      "settings": {
+        "foreground": "#50647750"
+      }
+    },
+
+    /**
+     * Diagnostic Tokens
+     * Controls the appearance of diagnostic messages and tokens.
+     */
+    {
+      "scope": "token.info-token",
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "scope": "token.warn-token",
+      "settings": {
+        "foreground": "#FFFAC2"
+      }
+    },
+    {
+      "scope": "token.error-token",
+      "settings": {
+        "foreground": "#D0679D"
+      }
+    },
+    {
+      "scope": "token.debug-token",
+      "settings": {
+        "foreground": "#E4F0FB"
+      }
+    },
+
+    /**
+     * Diff Files
+     * Controls the appearance of diff file headers and content.
+     */
+    {
+      "scope": [
+        "punctuation.definition.from-file.diff",
+        "meta.diff.header.from-file"
+      ],
+      "settings": {
+        "foreground": "#506477"
+      }
+    },
+
+    /**
+     * Logging
+     * Controls the appearance of different log levels.
+     */
+    {
+      "scope": ["source.ignore", "log.error", "log.exception"],
+      "settings": {
+        "foreground": "#D0679D"
+      }
+    },
+    {
+      "scope": ["log.verbose"],
+      "settings": {
+        "foreground": "#A6ACCD"
+      }
+    }
+  ]
+}

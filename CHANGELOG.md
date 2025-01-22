@@ -1,5 +1,11 @@
 # Purr for VSCode
 
+## 0.2.6
+
+### Patch Changes
+
+- [`eaa311d`](https://github.com/ryuudotgg/vscode-purr/commit/eaa311d97163a14d6c46907755bf4cd7b729179e) Thanks [@ryuudotgg](https://github.com/ryuudotgg)! - fix(actions): add a specific tag_name to update release
+
 ## 0.2.5
 
 ### Patch Changes

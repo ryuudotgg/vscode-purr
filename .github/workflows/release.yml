@@ -1,0 +1,42 @@
+name: Release
+
+on:
+  push:
+    branches: ["main"]
+
+  merge_group:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+env:
+  FORCE_COLOR: 3
+  DO_NOT_TRACK: true
+
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  VSCE_PAT: ${{ secrets.VSCE_PAT }}
+
+jobs:
+  release:
+    name: Release
+    if: ${{ github.repository == 'ryuudotgg/vscode-purr' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: "pnpm"
+
+      - name: Install Dependencies
+        run: pnpm install
+
+      - name: Create a Pull Request
+        uses: changesets/action@v1
+        with:
+          title: "feat(release): create a new release and update the version"
+          publish: pnpm release

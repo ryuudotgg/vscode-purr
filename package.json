@@ -30,6 +30,8 @@
   },
   "publisher": "ryuu",
   "scripts": {
+    "package": "mkdir -p dist && vsce package -o ./dist/purr.vsix",
+    "prepublishOnly": "vsce publish",
     "release": "changeset publish"
   },
   "contributes": {
@@ -48,7 +50,8 @@
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.11"
+    "@changesets/cli": "^2.27.11",
+    "vsce": "^2.15.0"
   },
   "packageManager": "pnpm@9.15.4",
   "engines": {

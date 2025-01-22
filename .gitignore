@@ -2,7 +2,7 @@
 node_modules/
 
 # VSCode
-build/
+dist/
 
 # macOS
 .DS_Store

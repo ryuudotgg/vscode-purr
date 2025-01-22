@@ -40,6 +40,7 @@ jobs:
 
         with:
           title: "feat(release): create a new release and update the version"
+          commit: "feat(release): create a new release and update the version"
           publish: pnpm release
 
         env:

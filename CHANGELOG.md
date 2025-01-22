@@ -1,5 +1,11 @@
 # Purr for VSCode
 
+## 0.2.5
+
+### Patch Changes
+
+- [`561c151`](https://github.com/ryuudotgg/vscode-purr/commit/561c151dc1310e7f4a28adfdadafebdd23409ad0) Thanks [@ryuudotgg](https://github.com/ryuudotgg)! - feat(actions): package vsix with github release
+
 ## 0.2.4
 
 ### Patch Changes

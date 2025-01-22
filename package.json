@@ -1,7 +1,7 @@
 {
   "name": "vscode-purr",
   "displayName": "Purr Themes",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A VSCode theme based on Purr.",
   "categories": [
     "Themes"

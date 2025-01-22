@@ -1,5 +1,15 @@
 # Purr for VSCode
 
+## 0.2.1
+
+### Patch Changes
+
+- [`04245f9`](https://github.com/ryuudotgg/vscode-purr/commit/04245f9faf8e5bbaa7ed15b5a64eba836a6776ad) Thanks [@ryuudotgg](https://github.com/ryuudotgg)! - fix(actions): add back granular permissions
+
+- [`a024dcc`](https://github.com/ryuudotgg/vscode-purr/commit/a024dcc7e20b6164a8c2356c4543474c72e576a7) Thanks [@ryuudotgg](https://github.com/ryuudotgg)! - fix(actions): remove granular permissions
+
+- [`e2ca082`](https://github.com/ryuudotgg/vscode-purr/commit/e2ca082d319a24344e98329988107714092825f2) Thanks [@ryuudotgg](https://github.com/ryuudotgg)! - fix(actions): add an npm token for releases
+
 ## 0.2.0
 
 ### Minor Changes

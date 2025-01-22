@@ -19,6 +19,9 @@ jobs:
     name: Release
     if: ${{ github.repository == 'ryuudotgg/vscode-purr' }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
 
     steps:
       - uses: actions/checkout@v4

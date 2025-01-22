@@ -29,6 +29,9 @@
     "url": "https://ryuu.gg"
   },
   "publisher": "ryuu",
+  "scripts": {
+    "release": "changeset publish"
+  },
   "contributes": {
     "themes": [
       {

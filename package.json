@@ -31,8 +31,7 @@
   "publisher": "ryuu",
   "scripts": {
     "package": "mkdir -p dist && vsce package -o ./dist/purr.vsix",
-    "prepublishOnly": "vsce publish",
-    "release": "changeset publish"
+    "release": "changeset publish && vsce publish"
   },
   "contributes": {
     "themes": [

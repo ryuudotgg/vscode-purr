@@ -35,8 +35,9 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
-      - name: Create a Pull Request
+      - name: Create a Pull Request & Release
         uses: changesets/action@v1
+        id: changesets
 
         with:
           title: "feat(release): create a new release and update the version"
@@ -47,3 +48,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
+
+      - name: Create VSIX Package
+        if: steps.changesets.outputs.published == 'true'
+        run: pnpm package
+
+      - name: Upload VSIX to Release
+        if: steps.changesets.outputs.published == 'true'
+        uses: softprops/action-gh-release@v2
+
+        with:
+          files: dist/purr.vsix
+          fail_on_unmatched_files: true
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

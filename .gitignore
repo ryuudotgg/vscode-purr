@@ -1,0 +1,8 @@
+# Node
+node_modules/
+
+# VSCode
+build/
+
+# macOS
+.DS_Store

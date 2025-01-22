@@ -1,5 +1,11 @@
 # Purr for VSCode
 
+## 0.2.2
+
+### Patch Changes
+
+- [`f8a05ac`](https://github.com/ryuudotgg/vscode-purr/commit/f8a05ac27998744a52d15513606d0573619443ad) Thanks [@ryuudotgg](https://github.com/ryuudotgg)! - fix(actions): add a vscode publish step
+
 ## 0.2.1
 
 ### Patch Changes

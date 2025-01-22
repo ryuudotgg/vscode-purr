@@ -33,9 +33,10 @@
 
 ### Install Manually
 
-1. Download the latest release from [Releases](https://github.com/ryuudotgg/vscode-purr/releases).
-3. Open the `purr.vsix` file.
-4. VSCode will ask you to install the extension.
+1. Download [purr.vsix](https://github.com/ryuudotgg/vscode-purr/releases/latest/download/purr.vsix) from the latest release on [GitHub](https://github.com/ryuudotgg/vscode-purr/releases/latest).
+2. `⌘` `⇧` `P` and select <ins>View: Show Extensions</ins>.
+3. Click on <ins>Install from VSIX</ins> under the three dots.
+4. You should follow the prompts to install the extension.
 5. `⌘` `R` `T` and select your chosen theme.
 
 <br><br>

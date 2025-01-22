@@ -1,5 +1,11 @@
 # Purr for VSCode
 
+## 0.2.3
+
+### Patch Changes
+
+- [`d2b14be`](https://github.com/ryuudotgg/vscode-purr/commit/d2b14bef2afcc3798ce70f342b1d3d0e66bd3a8e) Thanks [@ryuudotgg](https://github.com/ryuudotgg)! - chore(actions): update commit message for release
+
 ## 0.2.2
 
 ### Patch Changes

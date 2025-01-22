@@ -1,7 +1,7 @@
 {
   "name": "vscode-purr",
   "displayName": "Purr Themes",
-  "version": "0.0.1",
+  "version": "0.2.3",
   "description": "A VSCode theme based on Purr.",
   "categories": [
     "Themes"
@@ -29,6 +29,11 @@
     "url": "https://ryuu.gg"
   },
   "publisher": "ryuu",
+  "scripts": {
+    "package": "mkdir -p dist && vsce package -o ./dist/purr.vsix",
+    "prepublishOnly": "vsce publish",
+    "release": "changeset publish"
+  },
   "contributes": {
     "themes": [
       {
@@ -43,7 +48,15 @@
       }
     ]
   },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.11",
+    "vsce": "^2.15.0"
+  },
+  "packageManager": "pnpm@9.15.4",
   "engines": {
+    "node": ">=22.13.0",
+    "pnpm": "^9.15.4",
     "vscode": "^1.69.0"
   },
   "icon": "assets/icon.png",

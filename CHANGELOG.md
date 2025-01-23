@@ -1,5 +1,11 @@
 # Purr for VSCode
 
+## 1.1.1
+
+### Patch Changes
+
+- [`5bacab2`](https://github.com/ryuudotgg/vscode-purr/commit/5bacab21c8478983501d7f4efdd5282f127f5c97) Thanks [@ryuudotgg](https://github.com/ryuudotgg)! - fix(readme): update the logo for white themes
+
 ## 1.1.0
 
 ### Minor Changes

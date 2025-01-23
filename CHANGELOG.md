@@ -1,5 +1,11 @@
 # Purr for VSCode
 
+## 1.0.0
+
+### Major Changes
+
+- [#12](https://github.com/ryuudotgg/vscode-purr/pull/12) [`c70bd15`](https://github.com/ryuudotgg/vscode-purr/commit/c70bd1504b26cd4f46567f57bc8da631b36734c3) Thanks [@ryuudotgg](https://github.com/ryuudotgg)! - feat(themes): implement v1 of a light theme
+
 ## 0.2.7
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # Purr for VSCode
 
+## 1.1.0
+
+### Minor Changes
+
+- [#14](https://github.com/ryuudotgg/vscode-purr/pull/14) [`f026526`](https://github.com/ryuudotgg/vscode-purr/commit/f026526cc881f6b36bf07ab1aa591257443b49fa) Thanks [@ryuudotgg](https://github.com/ryuudotgg)! - feat(ai): add newer color properties, notably ai chat
+
 ## 1.0.0
 
 ### Major Changes

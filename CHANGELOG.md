@@ -1,5 +1,11 @@
 # Purr for VSCode
 
+## 1.1.2
+
+### Patch Changes
+
+- [`eff591f`](https://github.com/ryuudotgg/vscode-purr/commit/eff591ffa60062795c72f557acb82001cf78b800) Thanks [@ryuudotgg](https://github.com/ryuudotgg)! - feat(readme): include theme previews
+
 ## 1.1.1
 
 ### Patch Changes

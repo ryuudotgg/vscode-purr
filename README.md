@@ -16,10 +16,12 @@
 
 <details>
   <summary>🌑 Dark</summary>
+	<img src="https://cdn.purr.gg/3QDbrleBXorP.png" alt="Purr Dark Preview">
 </details>
 
 <details>
   <summary>🌕 Light</summary>
+	<img src="https://cdn.purr.gg/UjAYMnukP2JF.png" alt="Purr Light Preview">
 </details>
 
 ## Usage

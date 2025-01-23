@@ -1,5 +1,5 @@
 <h3 align="center">
-	<img src="https://cdn.purr.gg/DargW5gB3W5Z.png" width="100" alt="Purr Logo" />
+	<img src="https://cdn.purr.gg/N5oRHpfJftY4.png" width="120" alt="Purr Logo" />
   <br>
 	<img src="https://cdn.purr.gg/JBFvb6ABrQFh.png" height="30" width="0" />
 	Purr for <a href="https://code.visualstudio.com">VSCode</a>

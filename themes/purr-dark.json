@@ -352,7 +352,7 @@
 
     /**
      * List Filter Widget
-     * Controls the appearance of the list filter widget.
+     * Controls the appearance of the filter widget in lists.
      */
     "listFilterWidget.background": "#303340",
     "listFilterWidget.noMatchesOutline": "#D0679D",
@@ -372,7 +372,7 @@
 
     /**
      * Merge Conflicts
-     * Controls the appearance of merge conflict indicators.
+     * Controls the appearance of merge conflict decorations and indicators.
      */
     "merge.commonContentBackground": "#A6ACCD29",
     "merge.commonHeaderBackground": "#A6ACCD66",
@@ -383,7 +383,7 @@
 
     /**
      * Minimap
-     * Controls the appearance of the minimap (code preview).
+     * Controls the appearance of the minimap (code overview).
      */
     "minimap.errorHighlight": "#D0679D",
     "minimap.findMatchHighlight": "#ADD7FF",
@@ -398,8 +398,7 @@
 
     /**
      * Notebook
-     * Controls the appearance of interactive notebook elements including
-     * cells, borders, toolbars, and output containers used in Jupyter-style notebooks.
+     * Controls the appearance of notebook elements.
      */
     "notebook.cellBorderColor": "#000",
     "notebook.cellInsertionIndicator": "#00000000",
@@ -428,7 +427,7 @@
 
     /**
      * Notifications
-     * Controls the appearance of notification popups.
+     * Controls the appearance of notification toasts and the notification center.
      */
     "notificationCenterHeader.background": "#303340",
     "notificationLink.foreground": "#ADD7FF",
@@ -441,7 +440,7 @@
 
     /**
      * Panels
-     * Controls the appearance of panels (bottom/side panels).
+     * Controls the appearance of panels that can be shown at different edges of the window.
      */
     "panel.background": "#000",
     "panel.border": "#00000030",
@@ -455,7 +454,7 @@
 
     /**
      * Peek View
-     * Controls the appearance of peek view (inline code preview).
+     * Controls the appearance of peek view, which shows code previews inline.
      */
     "peekView.border": "#00000030",
     "peekViewEditor.background": "#A6ACCD05",
@@ -473,7 +472,7 @@
 
     /**
      * Picker and Progress
-     * Controls the appearance of picker dialogs and progress bars.
+     * Controls the appearance of various picker dialogs and progress indicators.
      */
     "pickerGroup.border": "#A6ACCD",
     "pickerGroup.foreground": "#89DDFF",
@@ -484,7 +483,7 @@
 
     /**
      * Quick Input
-     * Controls the appearance of quick input dialogs.
+     * Controls the appearance of the quick input widget.
      */
     "quickInput.background": "#000",
     "quickInput.foreground": "#A6ACCD",
@@ -528,7 +527,7 @@
 
     /**
      * Sidebar
-     * Controls the appearance of the sidebar.
+     * Controls the appearance of the sidebar and its components.
      */
     "sideBar.background": "#000",
     "sideBar.dropBackground": "#7390AA80",
@@ -539,7 +538,7 @@
 
     /**
      * Status Bar
-     * Controls the appearance of the status bar at the bottom.
+     * Controls the appearance of the status bar at the bottom of the window.
      */
     "statusBar.background": "#000",
     "statusBar.debuggingBackground": "#303340",
@@ -640,8 +639,7 @@
 
     /**
      * Terminal Commands
-     * Controls the appearance of command decorations in the integrated terminal,
-     * including indicators for command status (default, error, success).
+     * Controls the appearance of terminal command decorations.
      */
     "terminalCommandDecoration.defaultBackground": "#767C9D",
     "terminalCommandDecoration.errorBackground": "#D0679D",
@@ -649,7 +647,7 @@
 
     /**
      * Testing
-     * Controls the appearance of testing-related UI elements.
+     * Controls the appearance of testing UI elements.
      */
     "testing.iconErrored": "#D0679D",
     "testing.iconFailed": "#D0679D",
@@ -669,7 +667,7 @@
 
     /**
      * Text Styling
-     * Controls the appearance of various text elements.
+     * Controls the appearance of text blocks, quotes, and other text styling elements.
      */
     "textBlockQuote.background": "#7390AA1A",
     "textBlockQuote.border": "#89DDFF80",
@@ -703,7 +701,7 @@
   "tokenColors": [
     /**
      * Comments
-     * Controls the appearance of all types of comments in the code.
+     * Controls the appearance of code comments and comment punctuation.
      */
     {
       "scope": ["comment", "punctuation.definition.comment"],
@@ -722,7 +720,7 @@
 
     /**
      * Variables and Objects
-     * Controls the appearance of variables, object properties, and related elements.
+     * Controls the appearance of variables, objects, and their properties.
      */
     {
       "scope": [
@@ -753,7 +751,7 @@
 
     /**
      * Functions and Methods
-     * Controls the appearance of function names, method calls, and related elements.
+     * Controls the appearance of function and method names.
      */
     {
       "scope": [
@@ -853,7 +851,7 @@
 
     /**
      * Colors and Invalid Code
-     * Controls the appearance of color values and invalid code.
+     * Controls the appearance of color values and invalid/deprecated code.
      */
     {
       "scope": ["constant.other.color"],
@@ -876,7 +874,7 @@
 
     /**
      * Keywords and Control Statements
-     * Controls the appearance of general keywords and control statements.
+     * Controls the appearance of language keywords and control flow statements.
      */
     {
       "scope": ["keyword.control", "keyword"],
@@ -898,7 +896,7 @@
 
     /**
      * Module-Related Keywords
-     * Controls the appearance of import/export statements and module declarations.
+     * Controls the appearance of import/export statements and module syntax.
      */
     {
       "scope": [
@@ -1333,7 +1331,6 @@
         "foreground": "#E4F0FB"
       }
     },
-    // ... nested JSON property names continue with different colors for different levels ...
 
     /**
      * Markdown Formatting

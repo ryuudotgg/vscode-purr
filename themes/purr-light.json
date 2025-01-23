@@ -58,12 +58,38 @@
     "charts.yellow": "#FAD84F",
 
     /**
+     * AI Chat
+     * Controls the appearance of AI chat elements.
+     */
+    "chat.avatarBackground": "#EDF3FD",
+    "chat.avatarForeground": "#2E3440",
+    "chat.editedFileForeground": "#539BE8",
+    "chat.requestBackground": "#FFFFFF",
+    "chat.requestBorder": "#DDE3F2",
+    "chat.slashCommandBackground": "#EDF3FD",
+    "chat.slashCommandForeground": "#2E3440",
+
+    /**
      * Checkbox
      * Controls the appearance of checkboxes in the interface.
      */
     "checkbox.background": "#FFFFFF",
     "checkbox.border": "#2E344010",
     "checkbox.foreground": "#2E3440",
+
+    /**
+     * Command Center
+     * Controls the appearance of the command center.
+     */
+    "commandCenter.activeBackground": "#EDF3FD",
+    "commandCenter.activeBorder": "#DDE3F2",
+    "commandCenter.activeForeground": "#2E3440",
+    "commandCenter.background": "#FFFFFF",
+    "commandCenter.border": "#DDE3F2",
+    "commandCenter.debuggingBackground": "#EDF3FD",
+    "commandCenter.foreground": "#4F5668",
+    "commandCenter.inactiveBorder": "#DDE3F2",
+    "commandCenter.inactiveForeground": "#4F566899",
 
     /**
      * Debug Console
@@ -276,6 +302,15 @@
     "editorWidget.foreground": "#2E3440",
 
     /**
+     * Editor Sticky Scroll
+     * Controls the appearance of editor sticky scroll elements.
+     */
+    "editorStickyScroll.background": "#FFFFFF",
+    "editorStickyScroll.border": "#DDE3F2",
+    "editorStickyScroll.shadow": "#2E344015",
+    "editorStickyScrollHover.background": "#FFFFFF",
+
+    /**
      * Error and Status Indicators
      * Controls the appearance of error messages and status indicators.
      */
@@ -308,6 +343,21 @@
      */
     "icon.foreground": "#2E3440",
     "imagePreview.border": "#DDE3F2",
+
+    /**
+     * Inline AI Chat
+     * Controls the appearance of inline AI chat elements.
+     */
+    "inlineChat.background": "#FFFFFF",
+    "inlineChat.border": "#DDE3F2",
+    "inlineChat.regionHighlight": "#EDF3FD",
+    "inlineChat.shadow": "#2E344015",
+    "inlineChatDiff.inserted": "#DDE3F210",
+    "inlineChatDiff.removed": "#B14B6B20",
+    "inlineChatInput.background": "#FFFFFF",
+    "inlineChatInput.border": "#DDE3F2",
+    "inlineChatInput.focusBorder": "#4F8AD8",
+    "inlineChatInput.placeholderForeground": "#4F566899",
 
     /**
      * Input Controls
@@ -476,10 +526,21 @@
      */
     "pickerGroup.border": "#2E3440",
     "pickerGroup.foreground": "#539BE8",
+    "progressBar.background": "#539BE8",
+
+    /**
+     * Problems
+     * Controls the appearance of problems icons.
+     */
     "problemsErrorIcon.foreground": "#B14B6B",
     "problemsInfoIcon.foreground": "#4F8AD8",
     "problemsWarningIcon.foreground": "#FAD84F",
-    "progressBar.background": "#539BE8",
+
+    /**
+     * Ports
+     * Controls the appearance of ports icons.
+     */
+    "ports.iconRunningProcessForeground": "#000000",
 
     /**
      * Quick Input
@@ -664,6 +725,7 @@
     "testing.message.warning.lineBackground": "#FAD84F20",
     "testing.peekBorder": "#B14B6B",
     "testing.runAction": "#17B59B",
+    "testing.uncoveredGutterBackground": "#000000",
 
     /**
      * Text Styling
